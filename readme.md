@@ -1,1 +1,1 @@
-Continuando con mi aprendizaje he desarrollado una API con conexión a MySQL. En este proyecto también aprendo sobre inyección de dependencias y el patron de arquitectura MODELO VISTA CONTROLADOR. Además hay un archivo html en donde puedo consumir las apis y pruebo el manejo de CORS :)
+Continuando con mi aprendizaje he desarrollado una API con conexión a MySQL. En este proyecto también aprendo sobre inyección de dependencias y el patron de arquitectura MODELO VISTA CONTROLADOR. Además hay un archivo html en donde puedo consumir la api y pruebo el manejo de CORS :)
