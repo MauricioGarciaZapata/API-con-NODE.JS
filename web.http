@@ -1,0 +1,33 @@
+### obtener el h4
+GET http://localhost:1234/movies
+Content-Type: text/html
+
+### obtener movie por ID
+GET http://localhost:1234/movies/54c8239e-3578-11ef-9118-e4a8dfb64ae4
+### get por filtro de genero
+GET http://localhost:1234/movies?genre=Biography
+
+### Post nueva movie
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+  "title": "juansin",
+  "year": 2024,
+  "director": "Michael Bay",
+  "duration": 120,
+  "poster": "http://example.com/poster.jpg",
+  "rate": 8.5,
+  "genre": ["Action", "Adventure"]
+}
+
+### creando el patch
+PATCH http://localhost:1234/movies/54c8239e-3578-11ef-9118-e4a8dfb64ae4
+Content-Type: application/json
+
+{
+  "title": "hola"
+}
+
+### eliminar pelicula
+DELETE http://localhost:1234/movies/a142ce4e-3a18-11ef-bd2e-e4a8dfb64ae4
