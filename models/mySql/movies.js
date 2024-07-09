@@ -4,7 +4,7 @@ const config = {
   host: "localhost",
   user: "root",
   port: 3306,
-  password: "Alcohol2000*.",
+  password: "",
   database: "moviesDB",
 };
 
